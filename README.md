@@ -6,7 +6,7 @@ Normalize.css by Pirosauro
 My customized version of
 [normalize.css](https://necolas.github.io/normalize.css/) includes:
 
--   basic support for IE6/7 I needed it for some projects in China[^1]
+-   basic support for IE6/7 [^1]
 
 -   various improvements for mobile
 
