@@ -1,20 +1,22 @@
-/*! normalize.css v1.0.1 */
+/*! normalize.css v1.0.2 */
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
- * 2. Make html take up the entire screen.
- * 3. Prevent adjustments of font size after orientation changes in IE and iOS.
- * 4. Set touch-action to avoid touch delay on mobile IE.
+ * 2. Correct the line height in all browsers.
+ * 3. Make html take up the entire screen.
+ * 4. Prevent adjustments of font size after orientation changes in IE and iOS.
+ * 5. Set touch-action to avoid touch delay on mobile IE.
  */
 
 html {
                font-family: sans-serif; /* 1 */
-                     width: 100%; /* 2 */
-                    height: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 3 */
-      -ms-text-size-adjust: 100%; /* 3 */
-          -ms-touch-action: manipulation; /* 4 */
-              touch-action: manipulation; /* 4 */
+               line-height: 1.15; /* 2 */
+                     width: 100%; /* 3 */
+                    height: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 4 */
+      -ms-text-size-adjust: 100%; /* 4 */
+          -ms-touch-action: manipulation; /* 5 */
+              touch-action: manipulation; /* 5 */
 }
 
 /**
@@ -50,6 +52,14 @@ nav,
 section,
 summary { /* 1 */
   display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
 }
 
 /**
@@ -174,33 +184,37 @@ dfn {
 }
 
 /**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
+ * Correct the line height for headings in all browsers.
  */
 
 h1 {
-  font-size: 2em;
-     margin: 0.67em 0;
+    font-size: 2em;
+  line-height: 1.15;
+       margin: 0.67em 0;
 }
 
 h2 {
-  font-size: 1.5em;
-     margin: 0.83em 0;
+    font-size: 1.5em;
+  line-height: 1.15;
+       margin: 0.83em 0;
 }
 
 h3 {
-  font-size: 1.17em;
-     margin: 1em 0;
+    font-size: 1.17em;
+  line-height: 1.15;
+       margin: 1em 0;
 }
 
 h4 {
-  font-size: 1em;
-     margin: 1.33em 0;
+    font-size: 1em;
+  line-height: 1.15;
+       margin: 1.33em 0;
 }
 
 h5 {
-  font-size: 0.83em;
-     margin: 1.67em 0;
+    font-size: 0.83em;
+  line-height: 1.15;
+       margin: 1.67em 0;
 }
 
 h6 {
